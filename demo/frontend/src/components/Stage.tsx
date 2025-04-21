@@ -191,11 +191,8 @@ const Stage = ({ onImageUpload, descriptionState, setDescriptionState, queueStat
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <h1 className="text-3xl font-bold text-center sm:text-left"><a href="/">Describe Anything Model Demo</a></h1>
           <div className="flex flex-wrap justify-center gap-4 sm:space-x-8 text-lg font-medium">
-            <a href="" className="text-gray-600 hover:text-gray-800">Paper</a>
-            <a href="" className="text-gray-600 hover:text-gray-800">Code</a>
-            <a href="" className="text-gray-600 hover:text-gray-800">Project Page</a>
-            <a href="" className="text-gray-600 hover:text-gray-800">Video</a>
-            <a href="" className="text-gray-600 hover:text-gray-800">DAM for video</a>
+            <a href="https://describe-anything.github.io/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800">Project Page</a>
+            <a href="https://github.com/NVlabs/describe-anything?tab=readme-ov-file#simple-gradio-demo-for-detailed-localized-video-descriptions" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800">DAM for video</a>
           </div>
         </div>
         <div className="border-b border-gray-300 mt-4 mb-4"></div>
