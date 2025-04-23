@@ -118,7 +118,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--query', type=str, default='<image>\nDescribe the masked region in detail.', help='Prompt for the model')
     parser.add_argument('--model_path', type=str,
-                        default='checkpoints/dam_3b_v1', help='Path to the model checkpoint')
+                        default='nvidia/DAM-3B', help='Path to the model checkpoint')
     parser.add_argument('--prompt_mode', type=str,
                         default='focal_prompt', help='Prompt mode')
     parser.add_argument('--conv_mode', type=str,

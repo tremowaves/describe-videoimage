@@ -265,11 +265,11 @@ async def chat_completions(request: ChatCompletionRequest):
 
 
 if __name__ == "__main__":
-    # Example: python dam_server.py --model-path checkpoints/dam_3b_v1 --conv-mode v1 --prompt-mode focal_prompt --temperature 0.2 --top_p 0.9 --num_beams 1 --max_new_tokens 512 --workers 1
-    # Example: python dam_server.py --model-path checkpoints/dam_3b_joint_v1 --conv-mode v1 --prompt-mode focal_prompt --temperature 0.2 --top_p 0.9 --num_beams 1 --max_new_tokens 512 --workers 1 --image_video_joint_checkpoint
+    # Example: python dam_server.py --model-path nvidia/DAM-3B --conv-mode v1 --prompt-mode focal_prompt --temperature 0.2 --top_p 0.9 --num_beams 1 --max_new_tokens 512 --workers 1
+    # Example: python dam_server.py --model-path nvidia/DAM-3B-Video --conv-mode v1 --prompt-mode focal_prompt --temperature 0.2 --top_p 0.9 --num_beams 1 --max_new_tokens 512 --workers 1 --image_video_joint_checkpoint
     host = os.getenv("DAM_HOST", "0.0.0.0")
     port = int(os.getenv("DAM_PORT", "8000"))
-    model_path = os.getenv("DAM_MODEL_PATH", "checkpoints/dam_3b_v1")
+    model_path = os.getenv("DAM_MODEL_PATH", "nvidia/DAM-3B")
     conv_mode = os.getenv("DAM_CONV_MODE", "v1")
     workers = int(os.getenv("DAM_WORKERS", "1"))
 

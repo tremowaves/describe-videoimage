@@ -4,7 +4,7 @@
 
 [Long Lian](https://tonylian.com), [Yifan Ding](https://research.nvidia.com/person/yifan-ding), [Yunhao Ge](https://gyhandy.github.io/), [Sifei Liu](https://sifeiliu.net/), [Hanzi Mao](https://hanzimao.me/), [Boyi Li](https://sites.google.com/site/boyilics/home), [Marco Pavone](https://research.nvidia.com/person/marco-pavone), [Ming-Yu Liu](https://mingyuliu.net/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Adam Yala](https://www.adamyala.org/), [Yin Cui](https://ycui.me/)
 
-[Paper](https://describe-anything.github.io/paper.pdf) | [Project Page](https://describe-anything.github.io/) | [**Video**](https://describe-anything.github.io/#video) | [**HuggingFace Demo**](https://huggingface.co/spaces/nvidia/describe-anything-model-demo) | [Citation](#citation)
+[Paper](https://arxiv.org/abs/2504.16072) | [Project Page](https://describe-anything.github.io/) | [**Video**](https://describe-anything.github.io/#video) | [**HuggingFace Demo**](https://huggingface.co/spaces/nvidia/describe-anything-model-demo) | [Model/Benchmark (data coming soon)](https://huggingface.co/collections/nvidia/describe-anything-680825bb8f5e41ff0785834c) | [Citation](#citation)
 
 ![Main Image](assets/demo_and_arch.jpg)
 
@@ -124,10 +124,10 @@ A sleek, silver SUV is prominently featured, showcasing a modern and aerodynamic
 
 ```sh
 # Image-only DAM
-python dam_server.py --model-path checkpoints/dam_3b_v1 --conv-mode v1 --prompt-mode focal_prompt --temperature 0.2 --top_p 0.9 --num_beams 1 --max_new_tokens 512 --workers 1
+python dam_server.py --model-path nvidia/DAM-3B --conv-mode v1 --prompt-mode focal_prompt --temperature 0.2 --top_p 0.9 --num_beams 1 --max_new_tokens 512 --workers 1
 
 # Image-video joint DAM
-python dam_server.py --model-path checkpoints/dam_3b_joint_v1 --conv-mode v1 --prompt-mode focal_prompt --temperature 0.2 --top_p 0.9 --num_beams 1 --max_new_tokens 512 --workers 1 --image_video_joint_checkpoint
+python dam_server.py --model-path nvidia/DAM-3B-Video --conv-mode v1 --prompt-mode focal_prompt --temperature 0.2 --top_p 0.9 --num_beams 1 --max_new_tokens 512 --workers 1 --image_video_joint_checkpoint
 ```
 
 </details>

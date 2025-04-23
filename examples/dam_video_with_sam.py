@@ -108,7 +108,7 @@ if __name__ == '__main__':
     parser.add_argument('--boxes_list', type=str, default=None,
                        help='List of boxes for each frame, format: [[x1,y1,x2,y2], [x3,y3,x4,y4], ...]')
     parser.add_argument('--query', type=str, default='Video: <image><image><image><image><image><image><image><image>\nGiven the video in the form of a sequence of frames above, describe the object in the masked region in the video in detail.', help='Prompt for the model')
-    parser.add_argument('--model_path', type=str, default='checkpoints/dam_3b_joint_v1', help='Path to the model checkpoint')
+    parser.add_argument('--model_path', type=str, default='nvidia/DAM-3B-Video', help='Path to the model checkpoint')
     parser.add_argument('--prompt_mode', type=str, default='focal_prompt', help='Prompt mode')
     parser.add_argument('--conv_mode', type=str, default='v1', help='Conversation mode')
     parser.add_argument('--temperature', type=float, default=0.2, help='Sampling temperature')

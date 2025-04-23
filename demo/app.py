@@ -126,7 +126,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Describe Anything gradio demo")
     parser.add_argument("--server_addr", "--host", type=str, default=None, help="The server address to listen on.")
     parser.add_argument("--server_port", "--port", type=int, default=None, help="The port to listen on.")
-    parser.add_argument("--model-path", type=str, default="../checkpoints/dam_3b_v1", help="Path to the model checkpoint")
+    parser.add_argument("--model-path", type=str, default="nvidia/DAM-3B", help="Path to the model checkpoint")
     parser.add_argument("--prompt-mode", type=str, default="full+focal_crop", help="Prompt mode")
     parser.add_argument("--conv-mode", type=str, default="v1", help="Conversation mode")
     parser.add_argument("--temperature", type=float, default=0.2, help="Sampling temperature")

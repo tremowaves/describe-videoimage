@@ -79,9 +79,9 @@ def main(model, server_url):
     print(assistant_content)
 
 if __name__ == "__main__":
-    # Example: python examples/query_dam_server_video.py --model dam_3b_joint_v1 --server_url http://localhost:8000
+    # Example: python examples/query_dam_server_video.py --model DAM-3B-Video --server_url http://localhost:8000
     parser = argparse.ArgumentParser(description="Specify model.")
-    parser.add_argument("--model", type=str, default="dam_3b_joint_v1", help="Model to use")
+    parser.add_argument("--model", type=str, default="DAM-3B-Video", help="Model to use")
     parser.add_argument("--server_url", type=str, default="http://localhost:8000", help="Server URL")
     args = parser.parse_args()
     main(args.model, args.server_url)

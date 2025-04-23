@@ -51,7 +51,7 @@ def get_mask(ann_id):
 
 if __name__ == "__main__":
     # Example (run in evaluation directory):
-    # python get_model_outputs.py --model_type dam --model_path ../checkpoints/dam_3b_v1
+    # python get_model_outputs.py --model_type dam --model_path nvidia/DAM-3B
     
     parser = argparse.ArgumentParser(description='Get model outputs')
     parser.add_argument("--model_type", type=str, help="Type of the model")
