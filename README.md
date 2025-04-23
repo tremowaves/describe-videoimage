@@ -176,7 +176,14 @@ We provide a script to evaluate your model on DLC-Bench. Please refer to the [ev
 
 If you use our work or our implementation in this repo, or find them helpful, please consider giving a citation.
 
-TODO: Add citation
+```
+@article{lian2025describe,
+  title={Describe Anything: Detailed Localized Image and Video Captioning}, 
+  author={Long Lian and Yifan Ding and Yunhao Ge and Sifei Liu and Hanzi Mao and Boyi Li and Marco Pavone and Ming-Yu Liu and Trevor Darrell and Adam Yala and Yin Cui},
+  journal={arXiv preprint arXiv:2504.16072},
+  year={2025}
+}
+```
 
 # Acknowledgements
 
