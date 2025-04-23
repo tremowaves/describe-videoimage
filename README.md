@@ -26,7 +26,7 @@ cd describe-anything
 pip install -v .
 ```
 
-We also provide a self-contained script for detailed localized image descriptions without installing additional dependencies. Please refer to the [examples/dam_with_sam_self_contained.py](examples/dam_with_sam_self_contained.py) for more details.
+We also provide a self-contained script for detailed localized image descriptions without installing additional dependencies. Please refer to the [examples/dam_with_sam_self_contained.py](examples/dam_with_sam_self_contained.py) or [this Colab](https://colab.research.google.com/drive/1bQqAMRH2vdjoWpDpuMSb3SBf_OAntadZ?usp=sharing) for more details.
 
 ## Interactive Demo
 
