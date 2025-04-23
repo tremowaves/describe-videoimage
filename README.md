@@ -4,7 +4,7 @@
 
 [Long Lian](https://tonylian.com), [Yifan Ding](https://research.nvidia.com/person/yifan-ding), [Yunhao Ge](https://gyhandy.github.io/), [Sifei Liu](https://sifeiliu.net/), [Hanzi Mao](https://hanzimao.me/), [Boyi Li](https://sites.google.com/site/boyilics/home), [Marco Pavone](https://research.nvidia.com/person/marco-pavone), [Ming-Yu Liu](https://mingyuliu.net/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Adam Yala](https://www.adamyala.org/), [Yin Cui](https://ycui.me/)
 
-[Paper](https://describe-anything.github.io/paper.pdf) | [Project Page](https://describe-anything.github.io/) | [**Video**](https://describe-anything.github.io/#video) | [**HuggingFace Demo**] | [Citation](#citation)
+[Paper](https://describe-anything.github.io/paper.pdf) | [Project Page](https://describe-anything.github.io/) | [**Video**](https://describe-anything.github.io/#video) | [**HuggingFace Demo**](https://huggingface.co/spaces/nvidia/describe-anything-model-demo) | [Citation](#citation)
 
 ![Main Image](assets/demo_and_arch.jpg)
 
@@ -30,7 +30,7 @@ We also provide a self-contained script for detailed localized image description
 
 ## Interactive Demo
 
-### Full Huggingface Demo (this demo is also [hosted on Huggingface Spaces])
+### Full Huggingface Demo (this demo is also [hosted on Huggingface Spaces](https://huggingface.co/spaces/nvidia/describe-anything-model-demo))
 
 <!-- [![Demo Video](assets/demo.gif)](assets/demo.mov) -->
 
