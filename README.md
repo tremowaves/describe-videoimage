@@ -8,7 +8,7 @@
 
 ![Main Image](assets/demo_and_arch.jpg)
 
-**TL;DR**: Our Describe Anything Model (DAM) takes in a region of an image or a video in the form of points/boxes/scribbles/masks and outputs detailed descriptions to the region. For videos, it is sufficient to supply annotation on any frame. We also release a new benchmark, DLC-Bench, to evaluate models on the DLC task.
+**TL;DR**: Our Describe Anything Model (DAM) takes in a region of an image or a video in the form of points/boxes/scribbles/masks and outputs detailed descriptions to the region. For videos, it is sufficient to supply an annotation on any frame. We also release a new benchmark, DLC-Bench, to evaluate models on the DLC task.
 
 # Running Describe Anything Model
 
