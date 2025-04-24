@@ -1,4 +1,4 @@
-# Describe Anything
+# Describe Anything: Detailed Localized Image and Video Captioning
 
 **NVIDIA, UC Berkeley, UCSF**
 
