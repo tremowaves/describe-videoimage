@@ -175,13 +175,13 @@ We provide a script to evaluate your model on DLC-Bench. Please refer to the [ev
 # License
 
 We are releasing the Describe Anything Models under the following licenses:
-* Code: [Apache License 2.0](https://github.com/NVlabs/describe-anything/blob/main/LICENSE)
-* Model weights (in Hugging Face):
-  + [DAM-3B](https://huggingface.co/nvidia/DAM-3B): [NVIDIA Noncommercial License](https://huggingface.co/nvidia/DAM-3B/blob/main/LICENSE)
-  + [DAM-3B-Video](https://huggingface.co/nvidia/DAM-3B-Video): [NVIDIA Noncommercial License](https://huggingface.co/nvidia/DAM-3B-Video/blob/main/LICENSE)
-  + [DAM-3B-Self-Contained](https://huggingface.co/nvidia/DAM-3B-Self-Contained): [NVIDIA Noncommercial License](https://huggingface.co/nvidia/DAM-3B-Self-Contained/blob/main/LICENSE)
-* [Training Data (in Hugging Face)](https://huggingface.co/datasets/nvidia/describe-anything-dataset): [NVIDIA Noncommercial License](https://huggingface.co/datasets/nvidia/describe-anything-dataset/blob/main/LICENSE)
-* [DLC-Bench (in Hugging Face)](https://huggingface.co/datasets/nvidia/DLC-Bench): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+* **Code**: [Apache License 2.0](https://github.com/NVlabs/describe-anything/blob/main/LICENSE)
+* **Model weights (in Hugging Face)**:
+  + [**DAM-3B**](https://huggingface.co/nvidia/DAM-3B): [NVIDIA Noncommercial License](https://huggingface.co/nvidia/DAM-3B/blob/main/LICENSE)
+  + [**DAM-3B-Video**](https://huggingface.co/nvidia/DAM-3B-Video): [NVIDIA Noncommercial License](https://huggingface.co/nvidia/DAM-3B-Video/blob/main/LICENSE)
+  + [**DAM-3B-Self-Contained**](https://huggingface.co/nvidia/DAM-3B-Self-Contained): [NVIDIA Noncommercial License](https://huggingface.co/nvidia/DAM-3B-Self-Contained/blob/main/LICENSE)
+* [**Training Data (in Hugging Face)**](https://huggingface.co/datasets/nvidia/describe-anything-dataset): [NVIDIA Noncommercial License](https://huggingface.co/datasets/nvidia/describe-anything-dataset/blob/main/LICENSE)
+* [**DLC-Bench (in Hugging Face)**](https://huggingface.co/datasets/nvidia/DLC-Bench): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
 # Citation
 
