@@ -94,6 +94,8 @@ python examples/dam_with_sam_self_contained.py --image_path images/1.jpg --point
 ### Detailed Localized Video Descriptions
 * [`examples/dam_video_with_sam2.py`](examples/dam_video_with_sam2.py) - Video processing script using SAM v2.1 that only requires first-frame localization and automatically propagates masks through the video
 
+You will need to [install SAM 2](https://github.com/facebookresearch/sam2/blob/main/INSTALL.md) and download the model weights [sam2.1_hiera_large.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt) for SAM 2.1 according to the instructions.
+
 <details>
 <summary>Expand to see example commands</summary>
 
